@@ -1,0 +1,88 @@
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>SVH</title>
+  <style>
+    body {
+      background-color: #277d7f;
+      margin: 0;
+      padding: 0;
+      direction: rtl; /* للتوافق مع اللغة العربية */
+    }
+
+    /* الشعار الرئيسي */
+    .main-logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .main-logo img {
+      height: 10px;
+      border-radius:0px;
+    }
+
+    /* حاوية باقي الصور */
+    .logo-group {
+      display: grid;
+      grid-template-columns: repeat(6, auto); /* 4 شعارات في كل صف */
+      gap: 10px;
+      padding: 10px 10px 10px 10px; /* لإبعاد الصور عن الشعار العلوي */
+      justify-content:end; /* لمحاذاة الصور لليمين */
+    }
+
+    .logo-group img {
+      height: 70px;
+      border-radius: 4px;
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+      cursor: pointer;
+    }
+
+    .logo-group img:hover {
+      transform: scale(0.9);
+      box-shadow: 0 0 15px #77939c;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- باقي الصور -->
+  <div class="logo-group">
+    <a href="https://itsm.moh.gov.sa/" target="_blank">
+      <img src="PHOTO/Screenshot 2025-06-16 113812.png" alt="رابط الموقع 1">
+    </a>
+    <a href="https://raqeem.anat.sa/" target="_blank">
+      <img src="PHOTO/RAQEEM.jpg" alt="رابط الموقع 2">
+    </a>
+    <a href="https://anat.sa/" target="_blank">
+      <img src="PHOTO/ANAT.png" alt="رابط الموقع 3">
+    </a>
+    <a href="https://veedoc.sa.veeone.io/#/endpoints
+/" target="_blank">
+      <img src="PHOTO/vee.png" alt="رابط الموقع 5">
+    </a>
+    <a href="https://www.microsoft.com/ar-sa/" target="_blank">
+      <img src="PHOTO/Outlook-Embleme.jpg" alt="رابط الموقع 6">
+    </a>
+    <a href="https://www.seha.sa/" target="_blank">
+      <img src="PHOTO/Seha.jpg" alt="رابط الموقع 7">
+    </a>
+    <a href="https://wasfaty.sa/" target="_blank">
+      <img src="PHOTO/wasfaty.png" alt="رابط الموقع 8">
+    </a>
+    <a href="https://masar.sa/" target="_blank">
+      <img src="PHOTO/masarr.png" alt="رابط الموقع 9">
+    </a>
+    <a href="https://mawaredauth.moh.gov.sa/" target="_blank">
+      <img src="PHOTO/MWARD.png" alt="رابط الموقع 10">
+    </a>
+
+ <a href="https://caregility.ampc-sa.com/admins/sign_in/" target="_blank">
+      <img src="PHOTO/cc.png" alt="رابط الموقع 10">
+
+  </div>
+
+</body>
+</html>
